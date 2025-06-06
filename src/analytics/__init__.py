@@ -1,5 +1,5 @@
 """
-ShotSense Analytics Module
+swishr Analytics Module
 
 Advanced basketball analytics and machine learning components for:
 - Biomechanical analysis and scoring

@@ -1,8 +1,8 @@
-# ShotSense - AI-Powered Basketball Shooting Analysis
+# swishr - AI-Powered Basketball Shooting Analysis
 
 ## Project Overview
 
-ShotSense is an innovative mobile application that transforms any smartphone into a professional basketball shooting coach. Using advanced computer vision technology (YOLO V8, MediaPipe) and machine learning, it provides real-time analysis of shooting form, trajectory, and performance metrics.
+swishr is an innovative mobile application that transforms any smartphone into a professional basketball shooting coach. Using advanced computer vision technology (YOLO V8, MediaPipe) and machine learning, it provides real-time analysis of shooting form, trajectory, and performance metrics.
 
 ### Key Features
 
@@ -39,8 +39,8 @@ ShotSense is an innovative mobile application that transforms any smartphone int
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/shotsense.git
-   cd shotsense
+   git clone https://github.com/yourusername/swishr.git
+   cd swishr
    ```
 
 2. **Create virtual environment**
@@ -86,7 +86,7 @@ ShotSense is an innovative mobile application that transforms any smartphone int
 ## Project Structure
 
 ```
-shotsense/
+swishr/
 ├── src/
 │   ├── computer_vision/      # Core CV algorithms
 │   ├── analytics/           # Performance metrics and analysis
@@ -156,8 +156,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 For questions or support, please contact:
-- Email: support@shotsense.app
-- GitHub Issues: [Create an issue](https://github.com/yourusername/shotsense/issues)
+- Email: support@swishr.app
+- GitHub Issues: [Create an issue](https://github.com/yourusername/swishr/issues)
 
 ---
 

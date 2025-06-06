@@ -20,7 +20,7 @@ from demo import main as run_demo
 def print_banner():
     """Print application banner"""
     print("=" * 60)
-    print("🏀 BASKETBALL SHOT ANALYSIS - ShotSense AI")
+    print("🏀 BASKETBALL SHOT ANALYSIS - swishr AI")
     print("=" * 60)
     print("Transform any video into professional shooting analysis")
     print()

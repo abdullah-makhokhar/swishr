@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Setup script for Basketball Shot Analysis (ShotSense) MVP
+Setup script for Basketball Shot Analysis (swishr) MVP
 """
 
 from setuptools import setup, find_packages
@@ -17,14 +17,14 @@ if (this_directory / "requirements.txt").exists():
     requirements = [req.strip() for req in requirements if req.strip() and not req.startswith('#')]
 
 setup(
-    name="basketball-shot-analysis",
+    name="swishr",
     version="1.0.0",
     description="AI-Powered Basketball Shooting Analysis MVP - Transform any smartphone into a professional shooting coach",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="ShotSense Team",
-    author_email="contact@shotsense.ai",
-    url="https://github.com/shotsense/basketball-shot-analysis",
+    author="Abdullah Khokhar",
+    author_email="abdullah.vocab@gmail.com",
+    url="https://github.com/abdullah-makhokhar/swishr",
     
     # Package discovery
     packages=find_packages(where="src"),
@@ -90,10 +90,8 @@ setup(
     
     # Project URLs
     project_urls={
-        "Documentation": "https://basketball-shot-analysis.readthedocs.io/",
-        "Bug Reports": "https://github.com/shotsense/basketball-shot-analysis/issues",
-        "Source": "https://github.com/shotsense/basketball-shot-analysis",
-        "Funding": "https://github.com/sponsors/shotsense",
+        "Bug Reports": "https://github.com/abdullah-makhokhar/swishr/issues",
+        "Source": "https://github.com/abdullah-makhokhar/swishr"
     },
     
     # Zip safety

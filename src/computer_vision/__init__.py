@@ -1,5 +1,5 @@
 """
-Computer Vision module for ShotSense
+Computer Vision module for swishr
 Contains core computer vision algorithms for basketball shot analysis
 """
 

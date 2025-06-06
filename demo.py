@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ShotSense Demo Script
+swishr Demo Script
 Test the basketball shot analysis system with live camera or video file
 """
 
@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 
 def parse_arguments():
     """Parse command line arguments"""
-    parser = argparse.ArgumentParser(description='ShotSense Basketball Analysis Demo')
+    parser = argparse.ArgumentParser(description='swishr Basketball Analysis Demo')
     
     parser.add_argument(
         '--input', '-i',
@@ -222,7 +222,7 @@ def main():
     if args.verbose:
         logging.getLogger().setLevel(logging.DEBUG)
         
-    logger.info("Starting ShotSense Basketball Analysis Demo")
+    logger.info("Starting swishr Basketball Analysis Demo")
     
     # Setup video input
     cap = setup_video_input(args.input, args.width, args.height)
@@ -295,7 +295,7 @@ def main():
                 
             # Display frame (unless no-display is set)
             if not args.no_display:
-                cv2.imshow('ShotSense - Basketball Analysis', annotated_frame)
+                cv2.imshow('swishr - Basketball Analysis', annotated_frame)
                 
                 # Handle keyboard input
                 key = cv2.waitKey(1) & 0xFF

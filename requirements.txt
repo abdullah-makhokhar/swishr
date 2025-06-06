@@ -1,4 +1,4 @@
-# ShotSense - Basketball Shot Analysis Software
+# swishr - Basketball Shot Analysis Software
 # Core Computer Vision and Machine Learning
 opencv-python>=4.8.0
 ultralytics>=8.0.0  # YOLO V8
