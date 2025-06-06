@@ -291,9 +291,9 @@ checkpoints/
 *.bmp
 *.tiff
 *.svg
-!static/images/*.png
-!static/images/*.jpg
-!static/images/*.jpeg
+!images/*.png
+!images/*.jpg
+!images/*.jpeg
 
 # Video analysis outputs
 *_analysis.mp4

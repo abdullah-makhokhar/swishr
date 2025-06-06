@@ -12,6 +12,10 @@ swishr is an innovative mobile application that transforms any smartphone into a
 - **Personalized Coaching**: AI-generated recommendations based on individual weaknesses
 - **Multi-Platform Support**: iOS and Android compatibility
 
+## Demo
+
+![Basketball Shot Analysis Demo](images/shot_detection_demo.png)
+
 ## Technical Architecture
 
 ### Core Technologies
@@ -21,11 +25,6 @@ swishr is an innovative mobile application that transforms any smartphone into a
 - **Mobile**: React Native (cross-platform)
 - **Cloud**: AWS/GCP with Docker containerization
 
-### Performance Targets
-- **Accuracy**: 95%+ shot outcome prediction
-- **Real-time Processing**: 30+ FPS on smartphones
-- **Battery Impact**: <10% drain per 30-minute session
-- **Response Time**: <100ms for real-time feedback
 
 ## Project Setup
 
@@ -39,7 +38,7 @@ swishr is an innovative mobile application that transforms any smartphone into a
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/swishr.git
+   git clone https://github.com/abdullah-makhokhar/swishr.git
    cd swishr
    ```
 
@@ -103,43 +102,30 @@ swishr/
 
 ## Development Phases
 
-### Phase 1: Foundation (Weeks 1-8) ✅ In Progress
+### Phase 1: Foundation ✅
 - [x] Project setup and environment configuration
-- [ ] Basic computer vision pipeline (YOLO V8 + MediaPipe)
-- [ ] Ball tracking and trajectory analysis
-- [ ] Shot detection algorithms
-- [ ] Database schema and data pipeline
+- [x] Basic computer vision pipeline (YOLO V8 + MediaPipe)
+- [x] Ball tracking and trajectory analysis
+- [x] Shot detection algorithms
+- [x] Database schema and data pipeline
 
-### Phase 2: Advanced Analytics (Weeks 9-16)
-- [ ] Biomechanical analysis engine
-- [ ] Performance metrics calculation
+### Phase 2: Advanced Analytics 
+- [x] Biomechanical analysis engine
+- [x] Performance metrics calculation
 - [ ] AI feedback system
 - [ ] Mobile optimization
 
-### Phase 3: Mobile Development (Weeks 17-24)
+### Phase 3: Mobile Development 
 - [ ] React Native application
 - [ ] Real-time camera integration
 - [ ] User interface and experience
 - [ ] Social features and progress tracking
 
-### Phase 4: Testing & Deployment (Weeks 25-32)
+### Phase 4: Testing & Deployment 
 - [ ] Comprehensive testing suite
 - [ ] Beta testing with users
 - [ ] Production deployment
 - [ ] App store publication
-
-## Key Metrics & Success Criteria
-
-### Technical Performance
-- **Shot Outcome Prediction**: 95%+ accuracy
-- **Form Analysis Consistency**: <5% variance from professional assessments
-- **Processing Speed**: 30+ FPS on target devices
-- **System Uptime**: 99.5% availability
-
-### User Impact
-- **User Retention**: 70% monthly active users
-- **Performance Improvement**: 10%+ shooting improvement in 80% of users within 30 days
-- **App Store Rating**: 4.5+ stars across platforms
 
 ## Contributing
 
@@ -156,8 +142,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 For questions or support, please contact:
-- Email: support@swishr.app
-- GitHub Issues: [Create an issue](https://github.com/yourusername/swishr/issues)
+- Email: abdullah.vocab@gmail.com
+- GitHub Issues: [Create an issue](https://github.com/abdullah-makhokhar/swishr/issues)
 
 ---
 
