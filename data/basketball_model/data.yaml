@@ -1,0 +1,9 @@
+names:
+  0: basketball
+  1: hoop
+  2: person
+nc: 3
+path: /Users/abdullah/Projects/swishr/data/basketball_model
+test: test/images
+train: train/images
+val: val/images

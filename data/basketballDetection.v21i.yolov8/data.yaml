@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['basketball', 'hoop', 'person']
+
+roboflow:
+  workspace: nyu-figsb
+  project: basketballdetection-cki6r
+  version: 21
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nyu-figsb/basketballdetection-cki6r/dataset/21
